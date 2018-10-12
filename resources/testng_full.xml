@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Full train test" verbose="1">
+    <test name="Freight Wagon Test">
+        <classes>
+            <class name="rail.train.FreightWagonSuite" />
+        </classes>
+    </test>
+    <test name="Passenger Wagon Test">
+        <classes>
+            <class name="rail.train.PassengerWagonSuite" />
+        </classes>
+    </test>
+    <test name="Wagon Test">
+        <classes>
+            <class name="rail.train.WagonSuite" />
+        </classes>
+    </test>
+    <test name="Train Test">
+        <classes>
+            <class name="rail.train.TrainSuite" />
+        </classes>
+    </test>
+</suite>
