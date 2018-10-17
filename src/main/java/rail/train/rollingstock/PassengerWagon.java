@@ -2,6 +2,9 @@ package rail.train.rollingstock;
 
 import java.util.Arrays;
 
+/**
+ * Passenger Wagon class
+ */
 public class PassengerWagon extends Wagon {
     public enum ComfortLevel {
         SHARED("Shared wagon", 10.0),

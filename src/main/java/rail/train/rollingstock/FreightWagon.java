@@ -1,5 +1,8 @@
 package rail.train.rollingstock;
 
+/**
+ * Freight (or cargo) Wagon class
+ */
 public class FreightWagon extends Wagon {
     public enum Corpus {
         MAIL_BAGGAGE("Mail-baggage wagon"),

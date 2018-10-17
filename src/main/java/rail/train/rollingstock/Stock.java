@@ -1,5 +1,8 @@
 package rail.train.rollingstock;
 
+/**
+ * Rolling-stock abstract class
+ */
 public abstract class Stock {
     public enum WayType {
         MONORAIL,

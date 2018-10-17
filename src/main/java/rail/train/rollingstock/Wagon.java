@@ -1,6 +1,9 @@
 package rail.train.rollingstock;
 import java.time.LocalDate;
 
+/**
+ * Basee abstract class for Wagons
+ */
 public abstract class Wagon extends Stock implements Comparable<Wagon>{
     public enum CuplerType {
         MANUAL("manual"),
